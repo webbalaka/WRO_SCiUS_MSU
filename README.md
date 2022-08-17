@@ -110,3 +110,25 @@ The BlueFIrst function in the Main Function is a function that retrieves the Tur
 The Acton1B function in the BlueFIrst function stops the Large Motor and turns the Medium Motor to adjust the direction of the front wheels. Then it will rotate the Large Motor to make the car backwards until the Gyro Sensor reaches -FTurn value and will stop the car and return the wheels to keep the car straight. 
 
 The Action2B function follows the Acton1B function. It starts by rotating the Large Motor until the Color Sensor reaches a value of 4, 5 or 7 (yellow, red or brown detected), then stops the Large Motor and Turn the Medium Motor according to the Turn value, adjust the front wheel direction and turn the Large Motor to the side until the Gyro Sensor reaches -STurn value, then stop the car and return the wheel and continue running. 
+
+Part two: Traffic lights 
+
+The overall composition is the same as the first part, but with the addition of a condition: traffic light check using the function name HuskyCheck 
+ 
+HuskyCheck detects objects in a specified distance. Here it is set at 60 units. You need to know the color of the traffic light for decision making. The green traffic light ID is 1 and the red traffic light ID is 2. It will be considered separately by the GreenFound and RedFound functions. 
+
+ 
+
+GreenFound 
+ 
+Once we have found green in our realm We will consider the location of the traffic lights first. By using the LeftOrRight function, if the traffic light is on the right or left hand side of the car while the car runs according to traffic rules. 
+
+ 
+
+But if the traffic lights Not in the condition of Function, our car will try to turn left for the correct Function LeftOrRight. If so then Slowly return the wheel and run straight. 
+
+ 
+
+RedFound 
+ 
+Similar to GreenFound, but if the Function LeftOrRight condition is not met, it will try to turn right instead. 
