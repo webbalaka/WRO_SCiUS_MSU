@@ -56,7 +56,7 @@ BOTTOM VIEW
 
 ![This is an image](https://i.imgur.com/H5MlbpJ.jpg)
 
-## Video
+## Video (click to watch)
 
 [![Watch the video](https://i.imgur.com/Tg51eZW.png)](https://youtu.be/1VzLGnLJ_HQ)
 
