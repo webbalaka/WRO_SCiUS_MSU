@@ -58,7 +58,7 @@ BOTTOM VIEW
 
 ## Video
 
-
+https://www.youtube.com/watch?v=1VzLGnLJ_HQ&t=3s
 
 ## Introduction 
 
