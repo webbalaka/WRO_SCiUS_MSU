@@ -26,7 +26,7 @@ Official photo
 
 ![This is an image](https://i.imgur.com/VdVHBgR.jpeg)
 
-Funny photo 
+Free style photo 
 
 ![This is an image](https://i.imgur.com/Jig8csK.jpeg)
 
