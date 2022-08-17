@@ -1,5 +1,20 @@
 # WRO_SCiUS_MSU
 
+## TEAM DETAILS: 
+
+**Team name:** SCiUS MSU 
+
+**Country:** Thailand 
+
+**Team members:** 
+
+Pasit Khumsena 
+
+Pattarathida Khunthula 
+
+Suphapit Udom 
+
+**Coach:**  
 ## Introduction 
 
  
