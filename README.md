@@ -117,9 +117,7 @@ There are 6 variables in our code:
 3. **count** is the number of laps that the wheel has been broken. Here we start at 0. 
 4. **CWorCWW** (Clockwise or Counter Clockwise) determines whether In this game, we will have to walk clockwise or counterclockwise. Default = 0, clockwise = 1 and counterclockwise = 2. 
 5. **FTurn** is a Treshol level that will determine the direction of the car when passing the orange line. Here we will use 26 degrees. 
-6. **STurn** is a Treshol level that will determine the direction of the car when passing the blue line. Here we will use 90 degrees. 
-
-Community Verified icon 
+6. **STurn** is a Treshol level that will determine the direction of the car when passing the blue line. Here we will use 90 degrees.  
 
  
 
