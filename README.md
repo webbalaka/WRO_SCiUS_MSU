@@ -6,7 +6,7 @@
 
 The car which is used in the competition has 2 motors (Large motor and medium motor) and 3 sensors (Color sensor, Gyro sensor, Husky Lens sensor). The car uses a Parallel Steering System to move forward, using large motor and medium motor.  
 
-‘ 
+![This is an image](https://i.imgur.com/XYla45S.jpg)
 
  
 
