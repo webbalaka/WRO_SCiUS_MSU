@@ -49,6 +49,7 @@ In terms of algorithms, we will use the principle of turn back then run straight
  
 
 ### Variable
+![This is an image](https://i.imgur.com/nlOreTW.png)
 
 There are 6 variables in our code: 
 1. Speed ​​is used to determine the speed of the car. Here we will use 40 units. 
@@ -67,13 +68,11 @@ Community Verified icon
 ###  Function (GOGOGO.ev) 
 
 The first part is to define the variables as shown in the picture. After that, it will loop infinity by checking 3 things: 
-
+![This is an image](https://i.imgur.com/b1PUjSW.png)
  
 1. To check the count, we have to make a total of 3 laps around the field or make a total of 12 turns. After the turn is complete, run a little more and then stop. 
 
- 
- 
-
+![This is an image](https://i.imgur.com/O7zV4G1.png)
 After checking that it is not complete, there will be a sub loop to wait for the color that the color sensor detects. 
  
 2. Orange check, if you find color number 4 or 5 (yellow or red), you will check first if it's a clockwise or counter-clockwise walk. If it is a walk in a needle It will call the YellowFirst function. 
