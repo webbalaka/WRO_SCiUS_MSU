@@ -4,7 +4,7 @@
 
  
 
-The car which is used in the competition has 2 motors (Large motor and medium motor) and 3 sensors (Color sensor, Gyro sensor, Husky Lens sensor). The car uses a Parallel Steering System to move forward, using large motor and medium motor.  
+The car which is used in the competition has 2 motors (Large motor and Medium motor) and 3 sensors (Color sensor, Gyro sensor, Husky Lens sensor). The car uses a Parallel Steering System to move forward, using large motor and medium motor.  
 
 ![This is an image](https://i.imgur.com/XYla45S.jpg)
 
@@ -44,7 +44,7 @@ The sensor is placed at the top of the car, used for reading the traffic lights 
 
 ## Part one: No traffic lights 
 
-In terms of algorithms, we will use the principle of turn back then run straight to prevent erroneous turns but will only reverse and turn when it sees orange color on the ground. We have the function main file GOGOG.evp3 and all 7 sub-functions which will explain later.  
+In terms of algorithms, we will use the principle of turn back then run straight to prevent erroneous turns but will only reverse and turn when it sees orange color on the ground. We have the function main file *GOGOG.evp3* and all 7 sub-functions which will explain later.  
 
  
 
@@ -52,14 +52,12 @@ In terms of algorithms, we will use the principle of turn back then run straight
 ![This is an image](https://i.imgur.com/nlOreTW.png)
 
 There are 6 variables in our code: 
-1. Speed ​​is used to determine the speed of the car. Here we will use 40 units. 
-2. Turn determines the angle of the wheels to move. Here we will use 60 degrees. 
-3. count is the number of laps that the wheel has been broken. Here we start at 0. 
-
-4. CWorCWW (Clockwise or Counter Clockwise) determines whether In this game, we will have to walk clockwise or counterclockwise. Default = 0, clockwise = 1 and counterclockwise = 2. 
-
-5. FTurn is a Treshol level that will determine the direction of the car when passing the orange line. Here we will use 26 degrees. 
-6. STurn is a Treshol level that will determine the direction of the car when passing the blue line. Here we will use 90 degrees. 
+1. **Speed** ​​is used to determine the speed of the car. Here we will use 40 units. 
+2. **Turn** determines the angle of the wheels to move. Here we will use 60 degrees. 
+3. **count** is the number of laps that the wheel has been broken. Here we start at 0. 
+4. **CWorCWW** (Clockwise or Counter Clockwise) determines whether In this game, we will have to walk clockwise or counterclockwise. Default = 0, clockwise = 1 and counterclockwise = 2. 
+5. **FTurn** is a Treshol level that will determine the direction of the car when passing the orange line. Here we will use 26 degrees. 
+6. **STurn** is a Treshol level that will determine the direction of the car when passing the blue line. Here we will use 90 degrees. 
 
 Community Verified icon 
 
