@@ -104,7 +104,7 @@ The sensor is placed at the top of the car, used for reading the traffic lights 
 
 ## Part one: No traffic lights 
 
-In terms of algorithms, we will use the principle of turn back then run straight to prevent erroneous turns but will only reverse and turn when it sees orange color on the ground. We have the function main file *GOGOG.evp3* and all 7 sub-functions which will explain later.  
+In terms of algorithms, we will use the principle of turn back then run straight to prevent erroneous turns but will only reverse and turn when it sees orange color on the ground. We have the main-function file *GOGOG.evp3* and all 7 sub-functions which will explain later.  
 
  
 
