@@ -1,6 +1,6 @@
 # WRO_SCiUS_MSU
 
-Introduction 
+## Introduction 
 
  
 
@@ -10,31 +10,31 @@ The car which is used in the competition has 2 motors (Large motor and medium mo
 
  
 
-Large motor 
+### Large motor 
 
 The motor is placed on the back of the car vertically and has 2 gears to labor the force. 
 
  
 
-Medium motor 
+### Medium motor 
 
 The motor is placed in the middle of the car controls the front wheels in Parallel steering system by rotating the gears to move gear rack which can switch the direction of the wheels  
 
  
 
-Color sensor 
+### Color sensor 
 
 The sensor is placed in the front of the car, used for detecting lights and colors on the field. 
 
  
 
-Gyro sensor 
+### Gyro sensor 
 
 The motor is placed near the medium motor, used for changing the degree of the car.  
 
  
 
-Husky Lens sensor 
+### Husky Lens sensor 
 
 The sensor is placed at the top of the car, used for reading the traffic lights to decide the direction. 
 
@@ -42,13 +42,13 @@ The sensor is placed at the top of the car, used for reading the traffic lights 
 
  
 
-Part one: No traffic lights 
+## Part one: No traffic lights 
 
 In terms of algorithms, we will use the principle of turn back then run straight to prevent erroneous turns but will only reverse and turn when it sees orange color on the ground. We have the function main file GOGOG.evp3 and all 7 sub-functions which will explain later.  
 
  
 
-Variable 
+### Variable
 
 There are 6 variables in our code: 
 1. Speed ​​is used to determine the speed of the car. Here we will use 40 units. 
@@ -64,7 +64,7 @@ Community Verified icon
 
  
 
-Main Function (GOGOGO.ev) 
+###  Function (GOGOGO.ev) 
 
 The first part is to define the variables as shown in the picture. After that, it will loop infinity by checking 3 things: 
 
@@ -111,7 +111,7 @@ The Acton1B function in the BlueFIrst function stops the Large Motor and turns t
 
 The Action2B function follows the Acton1B function. It starts by rotating the Large Motor until the Color Sensor reaches a value of 4, 5 or 7 (yellow, red or brown detected), then stops the Large Motor and Turn the Medium Motor according to the Turn value, adjust the front wheel direction and turn the Large Motor to the side until the Gyro Sensor reaches -STurn value, then stop the car and return the wheel and continue running. 
 
-Part two: Traffic lights 
+## Part two: Traffic lights
 
 The overall composition is the same as the first part, but with the addition of a condition: traffic light check using the function name HuskyCheck 
  
@@ -119,7 +119,7 @@ HuskyCheck detects objects in a specified distance. Here it is set at 60 units. 
 
  
 
-GreenFound 
+### GreenFound
  
 Once we have found green in our realm We will consider the location of the traffic lights first. By using the LeftOrRight function, if the traffic light is on the right or left hand side of the car while the car runs according to traffic rules. 
 
@@ -129,6 +129,6 @@ But if the traffic lights Not in the condition of Function, our car will try to 
 
  
 
-RedFound 
+### RedFound
  
 Similar to GreenFound, but if the Function LeftOrRight condition is not met, it will try to turn right instead. 
