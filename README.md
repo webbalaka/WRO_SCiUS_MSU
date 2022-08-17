@@ -60,7 +60,7 @@ BOTTOM VIEW
 
 [![Watch the video](https://i.imgur.com/Tg51eZW.png)](https://youtu.be/1VzLGnLJ_HQ)
 
-## Introduction 
+## Diagram
 
  
 
