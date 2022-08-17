@@ -58,7 +58,7 @@ BOTTOM VIEW
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1VzLGnLJ_HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://i.imgur.com/Tg51eZW.png)](https://youtu.be/1VzLGnLJ_HQ)
 
 ## Introduction 
 
