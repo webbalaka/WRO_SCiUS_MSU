@@ -8,11 +8,11 @@
 
 **Team members:** 
 
-Pasit Khumsena 
+- Pasit Khumsena 
 
-Pattarathida Khunthula 
+- Pattarathida Khunthula 
 
-Suphapit Udom 
+- Suphapit Udom 
 
 **Coach:**  
 ## Introduction 
