@@ -68,43 +68,42 @@ Community Verified icon
 ###  Function (GOGOGO.ev) 
 
 The first part is to define the variables as shown in the picture. After that, it will loop infinity by checking 3 things: 
-![This is an image](https://i.imgur.com/b1PUjSW.png)
- 
+
 1. To check the count, we have to make a total of 3 laps around the field or make a total of 12 turns. After the turn is complete, run a little more and then stop. 
 
-![This is an image](https://i.imgur.com/O7zV4G1.png)
+![This is an image](https://i.imgur.com/b1PUjSW.png)
+
 After checking that it is not complete, there will be a sub loop to wait for the color that the color sensor detects. 
- 
+
 2. Orange check, if you find color number 4 or 5 (yellow or red), you will check first if it's a clockwise or counter-clockwise walk. If it is a walk in a needle It will call the YellowFirst function. 
  When done, it will set the variable to be clockwise again. (It will be useful when the first time you see orange. so you don't have to think about working when you see blue) and then exit this loop. 
 
- 
+![This is an image](https://i.imgur.com/O7zV4G1.png)
 
 3. Blue check If the color number 1 or 2 (black or blue) is found, it will check first if it is a clockwise or anti-clockwise walk. If it's a reverse walk, it will call the BlueFirst function. 
  When done, it will set the variable to turn counterclockwise again. (It will be useful when the first time you see the blue so you don't have to think about working when you see orange) and then exit this loop. 
 
- 
-
+![This is an image](https://i.imgur.com/s6O6cxy.png) 
  
 After exiting the sub-loop, it will reset the gyro and perform the CountUp function. 
 
- 
+![This is an image](https://i.imgur.com/WewveEm.png)
 
 The YellowFIrst function in the Main Function is a function that retrieves the Turn and Speed ​​values ​​for the Action1O and Action2O functions. 
 
- 
+![This is an image](https://i.imgur.com/YoHKCD8.png)
 
 The Acton1O function in the YellowFirst function stops the Large Motor and turns the Medium Motor to adjust the direction of the front wheels. Then it will rotate the Large Motor to make the car go backwards until the Gyro Sensor has reached the FTurn value and will stop the car and return the wheels to keep the car straight. 
 
- 
+![This is an image](https://i.imgur.com/5brq7T3.png)
 
 The Action2O function follows the Acton1O function. It starts by rotating the Large Motor until the Color Sensor reaches a value of 1 or 2 (black or blue detected), then stops the Large Motor and rotates the Medium Motor according to the value. Turn to adjust the front wheel direction and turn the Large Motor to move the car to the side until the Gyro Sensor has reached the STurn value, then stop the car and return the wheel and continue running. 
 
- 
+![This is an image](https://i.imgur.com/2G92ofW.png)
 
 The BlueFIrst function in the Main Function is a function that retrieves the Turn and Speed ​​values ​​for the Action1B and Action2B functions. 
 
- 
+![This is an image](https://i.imgur.com/DrnOGHk.png)
 
 The Acton1B function in the BlueFIrst function stops the Large Motor and turns the Medium Motor to adjust the direction of the front wheels. Then it will rotate the Large Motor to make the car backwards until the Gyro Sensor reaches -FTurn value and will stop the car and return the wheels to keep the car straight. 
 
@@ -116,18 +115,20 @@ The overall composition is the same as the first part, but with the addition of 
  
 HuskyCheck detects objects in a specified distance. Here it is set at 60 units. You need to know the color of the traffic light for decision making. The green traffic light ID is 1 and the red traffic light ID is 2. It will be considered separately by the GreenFound and RedFound functions. 
 
- 
+![This is an image](https://i.imgur.com/FFmrba0.png)
 
 ### GreenFound
  
 Once we have found green in our realm We will consider the location of the traffic lights first. By using the LeftOrRight function, if the traffic light is on the right or left hand side of the car while the car runs according to traffic rules. 
 
- 
+![This is an image](https://i.imgur.com/hF5fYH3.png)
 
 But if the traffic lights Not in the condition of Function, our car will try to turn left for the correct Function LeftOrRight. If so then Slowly return the wheel and run straight. 
 
- 
+![This is an image](https://i.imgur.com/t3ttGMj.png) 
 
 ### RedFound
  
 Similar to GreenFound, but if the Function LeftOrRight condition is not met, it will try to turn right instead. 
+
+![This is an image](https://i.imgur.com/btUB7IX.png)
